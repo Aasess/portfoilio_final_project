@@ -1,0 +1,64 @@
+.experience-container {
+    padding: 20px;
+  }
+  
+  .experience-title {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .experience-title h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: rgb(94, 162, 86);
+    color: #fff;
+    padding: 0 8px;
+    display: inline;
+  }
+  
+  .experience-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(94, 162, 86);
+    margin-bottom: 10px;
+  }
+  
+  .position {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    font-weight: bold;
+  }
+  
+  .role {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .responsibilities {
+    border-top: 1px solid #d2d2d2;
+    list-style-type: disc;
+    padding-left: 40px;
+    padding-top: 10px;
+
+  }
+  
+  .responsibilities li {
+    margin-bottom: 6px;
+  }
+  
+  li::marker {
+    color: rgb(94, 162, 86);
+  }
